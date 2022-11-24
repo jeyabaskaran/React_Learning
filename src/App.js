@@ -12,31 +12,16 @@ import EventHandler from './Component/EventHandler';
 import ParentComponent from './Component/ParentComponent';
 import ValidateComponent from './Component/ValidateComponent';
 import ListHandle from './Component/ListHandle';
+import StyleSheet from './Component/StyleSheet';
+import InlineCss from './Component/InlineCss';
+import './appStyle.css';
+import styles from './appStyle.module.css';
+import Form from './Component/Form';
 
 function App() {
   return (
     <div className="App">
-      <ListHandle />
-      {/* <ParentComponent /> */}
-      {/* <ValidateComponent /> */}
-      {/* <EventHandler /> */}
-
-      {/* <DA name="duldl"/>
-      <Greek name="Hi" others="Dummy3" /> */}
-      {/* <FunctionClick />
-      <ClassClick /> */}
-      {/* <SetStateCount /> */}
-      {/* <StateExample /> */}
-      {/* <Greek name="Hi" others="Dummy1" />
-      <p> Data Child </p>
-      <Greek name="Hi" others="Dummy2" />
-      <button>Button Child</button>
-      <MyComponent name="dummy1" />
-      <MyComponent name="dummy1" />
-      <MyComponent name="dummy1" /> */}
-
-
-      {/* <JSXCOmponent /> */}
+      <Form />
     </div>
   );
 }

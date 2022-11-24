@@ -17,8 +17,9 @@ class SetStateCount extends Component {
 
         this.setState((prevState) => ({  // using function within setState to get the previous state value
             count: prevState.count + 1
-        }), () => { console.log('Call back', this.state.count) })
-        console.log(this.state.count);
+        }))
+
+       
 
     }
 
