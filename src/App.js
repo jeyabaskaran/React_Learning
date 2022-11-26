@@ -17,11 +17,12 @@ import InlineCss from './Component/InlineCss';
 import './appStyle.css';
 import styles from './appStyle.module.css';
 import Form from './Component/Form';
+import LifeCycleA from './Component/LifeCycleA';
 
 function App() {
   return (
     <div className="App">
-      <Form />
+     <LifeCycleA />
     </div>
   );
 }
