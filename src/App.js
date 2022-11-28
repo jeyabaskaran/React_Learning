@@ -18,11 +18,14 @@ import './appStyle.css';
 import styles from './appStyle.module.css';
 import Form from './Component/Form';
 import LifeCycleA from './Component/LifeCycleA';
+import FragmentDemo from './Component/FragmentDemo';
+import Table from './Component/Table';
+import ParentComp from './Component/ParentComp';
 
 function App() {
   return (
     <div className="App">
-     <LifeCycleA />
+      <ParentComp />
     </div>
   );
 }
