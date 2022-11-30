@@ -21,11 +21,14 @@ import LifeCycleA from './Component/LifeCycleA';
 import FragmentDemo from './Component/FragmentDemo';
 import Table from './Component/Table';
 import ParentComp from './Component/ParentComp';
+import RefDemo from './Component/RefDemo';
+import FocusUpdate from './Component/FocusUpdate';
+import RefParentInput from './Component/RefParentInput';
 
 function App() {
   return (
     <div className="App">
-      <ParentComp />
+      <RefParentInput />
     </div>
   );
 }
